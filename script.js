@@ -116,7 +116,7 @@ const cakeInstruction = document.getElementById('cakeInstruction');
 const cakeResult = document.getElementById('cakeResult');
 
 const wishes = [
-  "May every road ahead be exactly as bright as this one. 🤍",
+  "May every road ahead be exactly as bright as this one. ❣️",
   "Wish sealed. Go make this year unforgettable. 🎉"
 ];
 
