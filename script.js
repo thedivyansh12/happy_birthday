@@ -118,7 +118,7 @@ const cakeResult = document.getElementById('cakeResult');
 const wishes = [
   "Wish made. Here's to everything you're driving toward. 🚗✨",
   "May every road ahead be exactly as bright as this one. 🤍",
-  "Wish sealed. Go make this year unforgettable, Dev. 🎉"
+  "Wish sealed. Go make this year unforgettable. 🎉"
 ];
 
 let blown = false;
