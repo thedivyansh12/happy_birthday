@@ -1,14 +1,14 @@
 :root{
-  --cream: #F7F1E6;
-  --cream-soft: #EFE7D6;
-  --denim: #3D5A75;
-  --denim-deep: #2A4258;
-  --navy: #16223A;
-  --gold: #E8A33D;
-  --gold-soft: #F3C57A;
-  --terracotta: #D9695A;
-  --ink: #2A2620;
-  --paper: #FFFDF8;
+  --cream: #FBEEEF;
+  --cream-soft: #F6DFE3;
+  --denim: #B5677E;
+  --denim-deep: #7C3B54;
+  --navy: #4A2137;
+  --gold: #E89AA0;
+  --gold-soft: #F5C8CE;
+  --terracotta: #D9527A;
+  --ink: #3A2430;
+  --paper: #FFF7F8;
 
   --font-display: "Fraunces", serif;
   --font-body: "Manrope", sans-serif;
@@ -196,7 +196,7 @@ main{ position: relative; z-index: 1; }
   background: var(--paper);
   padding: 14px 14px 46px;
   width: 260px;
-  box-shadow: 0 14px 30px -10px rgba(22,34,58,0.28);
+  box-shadow: 0 14px 30px -10px rgba(74,33,55,0.28);
   border-radius: 3px;
   position: relative;
   transition: transform 0.45s cubic-bezier(.2,.8,.2,1), box-shadow 0.45s ease;
@@ -207,7 +207,7 @@ main{ position: relative; z-index: 1; }
 
 .polaroid.unlocked:hover{
   transform: rotate(0deg) translateY(-10px) scale(1.04);
-  box-shadow: 0 26px 44px -12px rgba(22,34,58,0.4);
+  box-shadow: 0 26px 44px -12px rgba(74,33,55,0.4);
   z-index: 5;
 }
 
@@ -241,7 +241,7 @@ main{ position: relative; z-index: 1; }
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
-  background: linear-gradient(160deg, rgba(61,90,117,0.55), rgba(22,34,58,0.55));
+  background: linear-gradient(160deg, rgba(181,103,126,0.55), rgba(74,33,55,0.55));
   color: var(--cream);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
@@ -265,7 +265,7 @@ main{ position: relative; z-index: 1; }
 }
 
 .polaroid-inner:hover .seal{
-  background: linear-gradient(160deg, rgba(61,90,117,0.4), rgba(22,34,58,0.4));
+  background: linear-gradient(160deg, rgba(181,103,126,0.4), rgba(74,33,55,0.4));
 }
 
 /* unlocked state */
@@ -382,10 +382,10 @@ main{ position: relative; z-index: 1; }
 .flame{
   width: 14px;
   height: 26px;
-  background: radial-gradient(circle at 50% 70%, #FFF4D6 0%, var(--gold) 45%, var(--terracotta) 100%);
+  background: radial-gradient(circle at 50% 70%, #FFF0E3 0%, var(--gold) 45%, var(--terracotta) 100%);
   border-radius: 50% 50% 50% 50% / 65% 65% 35% 35%;
   animation: flicker 0.6s ease-in-out infinite alternate;
-  box-shadow: 0 0 16px 4px rgba(232,163,61,0.55);
+  box-shadow: 0 0 16px 4px rgba(232,154,160,0.55);
 }
 
 .flame-glow{
@@ -393,7 +393,7 @@ main{ position: relative; z-index: 1; }
   top: 4px; left: 50%;
   transform: translateX(-50%);
   width: 40px; height: 40px;
-  background: radial-gradient(circle, rgba(243,197,122,0.45), transparent 70%);
+  background: radial-gradient(circle, rgba(245,200,206,0.45), transparent 70%);
   border-radius: 50%;
   pointer-events: none;
   animation: glowPulse 1.4s ease-in-out infinite;
@@ -429,8 +429,8 @@ main{ position: relative; z-index: 1; }
   animation: smokeRise 1.4s ease-out forwards;
 }
 @keyframes smokeRise{
-  0%{ opacity: 0.55; width: 6px; height: 6px; transform: translate(-50%, 0) scale(1); background: rgba(120,120,120,0.5); border-radius: 50%; }
-  100%{ opacity: 0; width: 30px; height: 50px; transform: translate(-50%, -60px) scale(1.6); background: rgba(120,120,120,0.15); border-radius: 50%; }
+  0%{ opacity: 0.55; width: 6px; height: 6px; transform: translate(-50%, 0) scale(1); background: rgba(140,110,120,0.5); border-radius: 50%; }
+  100%{ opacity: 0; width: 30px; height: 50px; transform: translate(-50%, -60px) scale(1.6); background: rgba(140,110,120,0.15); border-radius: 50%; }
 }
 
 .cake{
@@ -450,7 +450,7 @@ main{ position: relative; z-index: 1; }
   height: 14px;
   background: var(--paper);
   border-radius: 50%;
-  box-shadow: 0 8px 18px rgba(22,34,58,0.25);
+  box-shadow: 0 8px 18px rgba(74,33,55,0.25);
 }
 
 .layer{
@@ -478,7 +478,7 @@ main{ position: relative; z-index: 1; }
 .layer-top{
   width: 128px;
   height: 46px;
-  background: linear-gradient(180deg, var(--terracotta) 0%, #C2483A 100%);
+  background: linear-gradient(180deg, var(--terracotta) 0%, #B23A5C 100%);
   z-index: 3;
   position: relative;
 }
