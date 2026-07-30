@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hello-kitty-blond-pi.vercel.app/sitemap.xml
